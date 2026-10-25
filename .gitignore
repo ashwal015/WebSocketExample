@@ -1,0 +1,75 @@
+## .NET / Visual Studio .gitignore
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache and user files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# VS Code (keep shared config, ignore the rest)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+.nuget/
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+coverage*.xml
+*.coverage
+
+# Publish output
+publish/
+PublishScripts/
+*.pubxml
+*.publishproj
+
+# Local secrets and environment config
+appsettings.Local.json
+appsettings.*.Local.json
+secrets.json
+.env
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+~$*
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
